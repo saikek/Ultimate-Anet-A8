@@ -1537,8 +1537,8 @@
 //#define ANET_KEYPAD_LCD           // Requires ADC_KEYPAD_PIN to be assigned to an analog pin.
                                   // This LCD is known to be susceptible to electrical interference
                                   // which scrambles the display.  Pressing any button clears it up.
-//  #define ZONESTAR_LCD            // Fixing error #error "ANET_KEYPAD_LCD is now ZONESTAR_LCD. Please update your configuration."
-#define ANET_FULL_GRAPHICS_LCD  // Anet 128x64 full graphics lcd with rotary encoder as used on Anet A6
+#define ZONESTAR_LCD            // Fixing error #error "ANET_KEYPAD_LCD is now ZONESTAR_LCD. Please update your configuration."
+//#define ANET_FULL_GRAPHICS_LCD  // Anet 128x64 full graphics lcd with rotary encoder as used on Anet A6
                                   // A clone of the RepRapDiscount full graphics display but with
                                   // different pins/wiring (see pins_ANET_10.h).
 

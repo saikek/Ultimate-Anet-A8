@@ -37,4 +37,14 @@
 | Anet A8&A6 3D Printer Part Each 5PC 0.4mm Extruder Nozzle+1.75mm Teflon Throat Tube+Heater Blocks Hotend for MK8 Makerbot Reprap | 15       |
 
 
-# Dimentions
+# Dimensions
+
+
+
+
+
+# Recovery
+See nice instruction here:
+http://www.instructables.com/id/HOW-TO-FIX-ANET-BRICKED-BOARD-USING-AN-ARDUINO-UNO/
+
+

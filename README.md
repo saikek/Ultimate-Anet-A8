@@ -19,6 +19,11 @@
 | 5PCS 10mm 4 Pin LED RGB Strip Connector For SMD 5050 RGB LED Strip Light Solderless PCB Board with Two Female Connect Cable | 1.69     |
 | SXDOOL STW-6002 4 Channel Speed Fan Controller with Blue LED Controller and CPU HDD VGA                                     | 6.61     |
 
+# Compatible motherboards
+| Item name                                                                                                                   | Price, $ |
+| --------------------------------------------------------------------------------------------------------------------------- | -------- |
+| CE&RoHS 32bit Arm platform Smooth control board MKS SBASE V1.3 open source MCU-LPC1768                                      | 40.95    |
+| Latest 3D printer MKS Gen V1.4 control board Mega 2560 R3 motherboard RepRap Ramps1.4 compatible, with USB                  | 25.20    |
 
 
 

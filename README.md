@@ -41,6 +41,22 @@
 | DIY Hot End Kit 0.4mm Nozzle 30mm Extruder Throat 12V 40W Heater Thermistor Aluminum Heater Block For Anet A2 A8 3D Printer      | 4.49     |
 | Anet A8&A6 3D Printer Part Each 5PC 0.4mm Extruder Nozzle+1.75mm Teflon Throat Tube+Heater Blocks Hotend for MK8 Makerbot Reprap | 15       |
 
+# Calibrating useful commands:
+ ```
+G28 - Home all axis
+G29 - Auto-level
+M851 Z-1.1 - set offset for Z nozzle to -1.1
+G1 Z0; Move nozzle to what it thinks is the zero height.
+```
+
+# Fast way to calibrate & test:
+```
+M851 Z-3.2
+M500
+G28 Z
+G1 Z0;
+```
+
 
 # Dimensions
 
@@ -48,8 +64,18 @@
 
 
 
-# Recovery
+# Recovery & Flashing
+Good instruction on flashing 
+http://3dtoday.ru/blogs/407s/marlin-firmware-116-for-anet-a6/
+
 See nice instruction here:
 http://www.instructables.com/id/HOW-TO-FIX-ANET-BRICKED-BOARD-USING-AN-ARDUINO-UNO/
 
 
+
+
+# Issues during flashing:
+```
+avrdude: ser_open(): can't open device "\\.\COM5": The system cannot find the file specified.
+```
+Change port in configuration.

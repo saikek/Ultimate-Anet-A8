@@ -51,9 +51,9 @@ G1 Z0; Move nozzle to what it thinks is the zero height.
 
 # Fast way to calibrate & test:
 ```
-M851 Z-3.2
-M500
-G28 Z
+M851 Z-0.5;
+M500;
+G28 Z;
 G1 Z0;
 ```
 

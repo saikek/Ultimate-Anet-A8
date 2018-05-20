@@ -183,6 +183,7 @@
  * The fan will turn on automatically whenever any stepper is enabled
  * and turn off after a set period after all steppers are turned off.
  */
+//TODO - might be usefull here
 //#define USE_CONTROLLER_FAN
 #if ENABLED(USE_CONTROLLER_FAN)
   //#define CONTROLLER_FAN_PIN FAN1_PIN  // Set a custom pin for the controller fan
@@ -864,6 +865,7 @@
  *   'M106 P<fan> T2'     : Use the set secondary speed
  *   'M106 P<fan> T1'     : Restore the previous fan speed
  */
+ //TODO - might be useful
 //#define EXTRA_FAN_SPEED
 
 /**
@@ -996,6 +998,7 @@
  * You'll also need the TMC2208Stepper Arduino library
  * (https://github.com/teemuatlut/TMC2208Stepper).
  */
+//TODO - that's what i have
 //#define HAVE_TMC2208
 
 #if ENABLED(HAVE_TMC2130) || ENABLED(HAVE_TMC2208)
@@ -1358,6 +1361,7 @@
 /**
  * M43 - display pin status, watch pins for changes, watch endstops & toggle LED, Z servo probe test, toggle pins
  */
+//TODO - good for debugging!
 //#define PINS_DEBUGGING
 
 /**

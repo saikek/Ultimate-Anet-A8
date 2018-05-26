@@ -19,3 +19,6 @@
 
 * Fan (Extruder) -> had to re-pin & connect to 12/24v pin. Will think about using adapter from aux.
 * Fan (Part cooling) -> re-pin & connected to FAN
+
+* Hotbed TH -> had to remove pins & insert into 2-socket slots.
+* Hotbed E1 -> had to remove pins & insert into 2-socket slots.

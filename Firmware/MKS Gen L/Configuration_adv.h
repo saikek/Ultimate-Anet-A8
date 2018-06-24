@@ -295,7 +295,7 @@
   #endif
 #endif
 
-//#define Z_DUAL_STEPPER_DRIVERS
+#define Z_DUAL_STEPPER_DRIVERS
 #if ENABLED(Z_DUAL_STEPPER_DRIVERS)
   //#define Z_DUAL_ENDSTOPS
   #if ENABLED(Z_DUAL_ENDSTOPS)
@@ -574,7 +574,7 @@
   #endif
 
   // Add an 'M73' G-code to set the current percentage
-  #define LCD_SET_PROGRESS_MANUALLY
+//  #define LCD_SET_PROGRESS_MANUALLY
 
   // This allows hosts to request long names for files and folders with M33
   //#define LONG_FILENAME_HOST_SUPPORT
@@ -912,7 +912,7 @@
  * You will need to import the TMC26XStepper library into the Arduino IDE for this
  * (https://github.com/trinamic/TMC26XStepper.git)
  */
-//#define HAVE_TMCDRIVER
+// #define HAVE_TMCDRIVER
 
 #if ENABLED(HAVE_TMCDRIVER)
 
@@ -986,7 +986,7 @@
  * the hardware SPI interface on your board and define the required CS pins
  * in your `pins_MYBOARD.h` file. (e.g., RAMPS 1.4 uses AUX3 pins `X_CS_PIN 53`, `Y_CS_PIN 49`, etc.).
  */
-//#define HAVE_TMC2130
+// #define HAVE_TMC2130
 
 /**
  * Enable this for SilentStepStick Trinamic TMC2208 UART-configurable stepper drivers.
@@ -999,7 +999,7 @@
  * (https://github.com/teemuatlut/TMC2208Stepper).
  */
 //TODO - that's what i have
-//#define HAVE_TMC2208
+// #define HAVE_TMC2208
 
 #if ENABLED(HAVE_TMC2130) || ENABLED(HAVE_TMC2208)
 
@@ -1016,9 +1016,9 @@
   //#define E3_IS_TMC2130
   //#define E4_IS_TMC2130
 
-  //#define X_IS_TMC2208
+  // #define X_IS_TMC2208
   //#define X2_IS_TMC2208
-  //#define Y_IS_TMC2208
+//  #define Y_IS_TMC2208
   //#define Y2_IS_TMC2208
   //#define Z_IS_TMC2208
   //#define Z2_IS_TMC2208
@@ -1137,7 +1137,7 @@
    * Enable M122 debugging command for TMC stepper drivers.
    * M122 S0/1 will enable continous reporting.
    */
-  //#define TMC_DEBUG
+// #define TMC_DEBUG
 
   /**
    * You can set your own advanced settings by filling in predefined functions.

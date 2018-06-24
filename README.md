@@ -38,4 +38,5 @@ avrdude: ser_open(): can't open device "\\.\COM5": The system cannot find the fi
 ```
 Change port in configuration.
 
-# See [Shopping.md](/Shopping.MD) for prices and recommended items. 
+# See Shopping.md for prices and recommended items.
+# See Upgrade.md for Upgrade recommendations 

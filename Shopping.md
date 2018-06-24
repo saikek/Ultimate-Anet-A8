@@ -1,10 +1,10 @@
 # Things that you __SHOLD NOT BUY__
-| Item name                                                                                                               | Price, $ | Reason | 
-| ----------------------------------------------------------------------------------------------------------------------- | -------- |        |
-| TF / Micro SD TO SD Card Extension Cable Adapter Flexible Extender MicroSD To SD                                        | 3        | Will be using new module, good for base motherboard | 
-| 2864 LCD Smart Display Screen                                                     | 12.99    | Mess with pins after upgrade, to hard to reconnect | 
-| New Electric LJC18A3-H-Z/BX Approach Sensor Cylindrical Capacitive Proximity Switch NPN 6-36V                           | 8        | Find one that works with 5 volts | 
-| V6 J-head Hotend Bowden Extruder Full Set with Fan, 12V Heater,PTFE Tubing for 0.4mm 1.75mm Bowden for 3d printer       | 6.10     | Think if you need this | 
+| Item name                                                                                                         | Price, $ | Reason                                              |
+| ----------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------- |
+| TF / Micro SD TO SD Card Extension Cable Adapter Flexible Extender MicroSD To SD                                  | 3        | Will be using new module, good for base motherboard |
+| 2864 LCD Smart Display Screen                                                                                     | 12.99    | Mess with pins after upgrade, to hard to reconnect  |
+| New Electric LJC18A3-H-Z/BX Approach Sensor Cylindrical Capacitive Proximity Switch NPN 6-36V                     | 8        | Find one that works with 5 volts                    |
+| V6 J-head Hotend Bowden Extruder Full Set with Fan, 12V Heater,PTFE Tubing for 0.4mm 1.75mm Bowden for 3d printer | 6.10     | Think if you need this                              |
 
 
 # Things that you might consider buying:

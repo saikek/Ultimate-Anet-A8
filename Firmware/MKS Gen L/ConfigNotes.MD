@@ -1,5 +1,4 @@
 # TODO
-* Screen not working
 * Set up fan's using special adapter
 * SD CARD support
 * X layers shifts after 30 minutes of printing
@@ -16,8 +15,12 @@
 
 * Hotbed TH -> had to remove pins & insert into 2-socket slots.
 * Hotbed E1 -> had to remove pins & insert into 2-socket slots.
-* Замена микрошага Z на 1/32 пинами -> Не надо
-* LOW pitch noise from Z motors - replaced microstepping by pins (for now) - only first is in. used 2130 motor. 
+* LOW pitch noise from Z motors - replaced microstepping by pins (for now) - only first is in. used 2130 motor.
 
 * Problems with Z axis -> Used DRV8825 with voltage 0.6, used also E1 extruder connection for Z2 motor.
 * Z motors always overheated - checked their specs / voltage - it looks like they are 0.9 volts, so Vref on DRV8825 should be 0.45 V.
+* Z models are shrinked or streched - had to replace `DEFAULT_AXIS_STEPS_PER_UNIT` for Z axis (& Z_OFFSET as well for each test). Can be replaced with M92 Z400.
+* Updated all drivers to use x16 microstepping by using pins 1 and 2.
+* Fixed original Anet A8 screend -> used AUX-2 & re-wired the connector 5v & GND pins [see thread][stack-overflow-link] Data: 57%, Program 54%
+
+[stack-overflow-link]: https://3dprinting.stackexchange.com/questions/6030/connecting-anet-a8-2004-display-to-mks-gen-l

@@ -532,6 +532,8 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
+ // Z uses TMC2208, with stepping = 16, value = 400
+ // ALWAYS re-calibrate Z-offset
 #define DEFAULT_AXIS_STEPS_PER_UNIT   { 100, 100, 400, 95 }
 
 /**

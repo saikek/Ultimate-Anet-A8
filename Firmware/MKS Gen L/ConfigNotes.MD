@@ -1,7 +1,7 @@
 # TODO
 * Set up fan's using special adapter
 * SD CARD support
-* X layers shifts after 30 minutes of printing
+* Filament runout sensor
 
 # Done
 
@@ -21,6 +21,8 @@
 * Z motors always overheated - checked their specs / voltage - it looks like they are 0.9 volts, so Vref on DRV8825 should be 0.45 V.
 * Z models are shrinked or streched - had to replace `DEFAULT_AXIS_STEPS_PER_UNIT` for Z axis (& Z_OFFSET as well for each test). Can be replaced with M92 Z400.
 * Updated all drivers to use x16 microstepping by using pins 1 and 2.
+* X layers shifts after 30 minutes of printing -> Decreased acceleration speeds.
 * Fixed original Anet A8 screend -> used AUX-2 & re-wired the connector 5v & GND pins [see thread][stack-overflow-link] Data: 57%, Program 54%
+* Added filament runout sensor option -> Data: 57.7%, Program 57.1%
 
 [stack-overflow-link]: https://3dprinting.stackexchange.com/questions/6030/connecting-anet-a8-2004-display-to-mks-gen-l

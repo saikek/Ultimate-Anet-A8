@@ -73,3 +73,12 @@ Change port in configuration.
 
 [good-instruction]: http://3dtoday.ru/blogs/407s/marlin-firmware-116-for-anet-a6/
 [fixing-bricked]: http://www.instructables.com/id/HOW-TO-FIX-ANET-BRICKED-BOARD-USING-AN-ARDUINO-UNO/
+
+
+# How to make semilinks in Windows 10?
+I like to keep all my changes in github. So I unzip folder with firmware, and in that folder (after merging with original files), I create semilinks to my Github repository files.
+This way i don't commit whole folder with firmware, but I'm only tracking my config files.
+
+```bash
+mklink Configuration.h <...path to github folder...>\Configuration.h
+```

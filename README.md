@@ -43,8 +43,12 @@ Somehow `DEFAULT_AXIS_STEPS_PER_UNIT` is not set when changing firmware, so I ne
 # Fast way to calibrate & test:
 After you've done Auto-level this would help calibrate Z offset without homing X and Y. Saves lots of time, since you can run this code snippet 5 times in a row.
 
+negative value -> lower,  closer to bed
+positive value -> higher, further from bed
+
 ```
-M851 Z-2.5;
+G28;
+M851 Z-1.6;
 M500;
 G28 Z;
 G1 Z0;
@@ -55,6 +59,11 @@ Previous calibrations:
 * M851 Z-2.5; //400
 * M851 Z-1.2; //1600
 * M851 Z-0.6; //800 - NOK, in space
+
+# Find current configuration
+```
+M503 - get all settings
+```
 
 
 
@@ -82,3 +91,6 @@ This way i don't commit whole folder with firmware, but I'm only tracking my con
 ```bash
 mklink Configuration.h <...path to github folder...>\Configuration.h
 ```
+
+# LINKS:
+https://www.prusaprinters.org/calculator/

@@ -51,7 +51,7 @@
 #endif
 
 #if DISABLED(IS_RAMPS_SMART) && DISABLED(IS_RAMPS_DUO) && DISABLED(IS_RAMPS4DUE) && DISABLED(TARGET_LPC1768)
-#if !defined(__AVR_ATmega1280__) && !defined(__AVR_ATmega2560__)
+  #if !defined(__AVR_ATmega1280__) && !defined(__AVR_ATmega2560__)
     #error "Oops! Select 'Arduino/Genuino Mega or Mega 2560' in 'Tools > Board.'"
   #endif
 #endif

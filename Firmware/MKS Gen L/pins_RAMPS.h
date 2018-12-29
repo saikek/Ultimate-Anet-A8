@@ -79,9 +79,9 @@
 //
 #define X_MIN_PIN           3
 #ifndef X_MAX_PIN
-  #define X_MAX_PIN         2
+  #define X_MAX_PIN         -1
 #endif
-#define Y_MIN_PIN          14
+#define Y_MIN_PIN           2
 #define Y_MAX_PIN          15
 #define Z_MIN_PIN          18
 #define Z_MAX_PIN          19
@@ -153,9 +153,9 @@
    * Hardware serial communication ports.
    * If undefined software serial is used according to the pins below
    */
-  //#define X_HARDWARE_SERIAL  Serial1
+  #define X_HARDWARE_SERIAL  Serial3
   //#define X2_HARDWARE_SERIAL Serial1
-  //#define Y_HARDWARE_SERIAL  Serial1
+  #define Y_HARDWARE_SERIAL  Serial2
   //#define Y2_HARDWARE_SERIAL Serial1
   //#define Z_HARDWARE_SERIAL  Serial1
   //#define Z2_HARDWARE_SERIAL Serial1
@@ -561,28 +561,6 @@
         #define SHIFT_CLK       44
         #define SHIFT_LD        42
         #define BTN_EN1         64
-        #define BTN_EN2         59
-        #define BTN_ENC         63
-      #elif ENABLED(PANEL_ONE)
-        #define BTN_EN1         59   // AUX2 PIN 3
-        #define BTN_EN2         63   // AUX2 PIN 4
-        #define BTN_ENC         49   // AUX3 PIN 7
-      #else
-        #define BTN_EN1         37
-        #define BTN_EN2         35
-        #define BTN_ENC         31
-      #endif
-
-      #if ENABLED(G3D_PANEL)
-        #define SD_DETECT_PIN   49
-        #define KILL_PIN        41
-      #endif
-
-    #endif
-  #endif // NEWPANEL
-
-#endif // ULTRA_LCD
-      64
         #define BTN_EN2         59
         #define BTN_ENC         63
       #elif ENABLED(PANEL_ONE)
